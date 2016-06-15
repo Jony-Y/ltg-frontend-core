@@ -1,0 +1,84 @@
+/*MODAL*/
+
+.modal-header {
+    border-bottom: none !important;
+    .close {
+        margin-top: -7%;
+        margin-right: 2px;
+    }
+}
+
+.conf-close {
+    margin-top: -4% !important;
+    margin-right: -5px !important;
+}
+
+.close {
+    opacity: 1;
+}
+
+.modal-header-title {
+    padding: 0px 40px;
+}
+
+.modal-dialog {
+    margin: 0px auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 560px;
+}
+
+.modal-dialog.modal-lg {
+    @extend .modal-dialog;
+    width: 1030px;
+    min-height: 500px;
+}
+
+.modal-lg {
+    .modal-header {
+        padding: 6px 15px;
+    }
+}
+
+.modal-md .modal-dialog {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.modal-init .modal-dialog {
+    width: 560px;
+}
+
+.modal-forgot-password .modal-dialog {
+    width: 500px !important;
+}
+
+.modal-xs .modal-dialog {
+    width: 400px;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    opacity: .9 !important;
+    background-color: white;
+}
+
+.modal {
+    text-align: center;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+/*MODAL*/

@@ -1,0 +1,11 @@
+<div id="canvas-container">
+    <div ng-repeat="navStep in navBarSteps" id="navItem{{$index}}" class="{{navStep.class}}">
+        <div class="step-item-container {{navStep.offset}}">
+            <a href="#" ng-click="goTo(navStep.step, navStep.container_id)" title=""><span class="step-bar-item" ng-class="{'active-step':step === $index + 1}"><img class="img-init step-img" ng-class="{'animate':step === $index + 1}"  ng-src="{{navStep.img}}" alt=""></span></a>
+            <label class="primary">{{navStep.title}}</label>
+        </div>
+    </div>
+    <div class="col-xs-12 p-0 text-center center-block center">
+        <canvas id="step-canvas" style="width:{{stepBarTotalWidth}}px; background-color: {{navbarOptions.default_color}}" />
+    </div>
+</div>

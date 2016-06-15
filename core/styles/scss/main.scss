@@ -1,0 +1,19 @@
+/**
+ * entry point for our scss project
+ *
+ * Created March 9th, 2015
+ * @author: Jonathan Yehie
+ * @version: 1.0
+ * @copyright: LTG
+ */
+
+@import 'core-scss/_core-mixins';
+@import 'core-scss/_core-responsive';
+@import 'core-scss/_core-styling';
+@import 'core-scss/_core-fonts';
+@import 'core-scss/_core-modal';
+@import 'core-scss/_core-animation';
+@import 'core-scss/_core-loading';
+@import 'core-scss/_core-login';
+@import 'core-scss/_step-navbar';
+
